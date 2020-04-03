@@ -13,11 +13,12 @@
         <!-- Material Design Bootstrap -->
         <link rel="stylesheet" href="css/mdb.min.css">
 
-        <title>Hello World!</title>
+        <title>Meal + Mug</title>
     </head>
 
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark black">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
             <div class="container">
                 <a class="navbar-brand" href="#"><strong>Meal + Mug</strong></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,10 +31,13 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
+                            <a class="nav-link" href="#">Recipes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tips + Tricks</a>
                         </li>
                     </ul>
                 </div>
@@ -41,34 +45,99 @@
         </nav>
     </header>
     <body>
-    <!-- Main Body -->
+        <div class="jumbotron jumbotron-fluid bg-light">
+            <div class="container pt-5">
+                <h2 class="card-title h1-responsive">Meal + Mug</h2>
+                <p class="mx-5">Your goto website for food and drink recipes!</p>
+                <form class="form-inline md-form mr-auto">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-indigo btn-rounded btn-sm my-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Main Body -->
         <div class="container-fluid">
 
-            <div class="jumbotron bg-light">
-                <div class="container">
-                    <div>
-                        <h2 class="card-title h1-responsive pt-3 mb-5">Jumbotron Header</h2>
-                        <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                            optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
-                        </p>
-                        <a class="btn btn-indigo"><i class="fas fa-clone"></i> Link here</a>
+            <div class="card-deck">
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="img/fettuccine_alfredo.jpg">
+                        <a href="#">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Breakfast</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-indigo btn-md">Read more</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="img/fettuccine_alfredo.jpg">
+                        <a href="#">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Lunch</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-indigo btn-md">Read more</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="img/fettuccine_alfredo.jpg">
+                        <a href="#">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Dinner</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-indigo btn-md">Read more</button>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="view overlay">
+                        <img class="card-img-top" src="img/fettuccine_alfredo.jpg">
+                        <a href="#">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                    <div class="card-body">
+                        <h4 class="card-title">Desert</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <button type="button" class="btn btn-indigo btn-md">Read more</button>
                     </div>
                 </div>
             </div>
 
-            <div class="">
-
-            </div>
         </div>
     <!-- End Main Body -->
 
-        <!-- jQuery -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <!-- Bootstrap Tooltips (Popper) -->
-        <script type="text/javascript" src="js/popper.min.js"></script>
-        <!-- Bootstrap Core + Tooltips (popper) -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <!-- Material Design Bootstrap Core -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-    </body>
+    <footer class="page-footer font-small indigo">
+        <div class="container">
+            <div class="text-left py-3">© 2020 Copyright:
+                <a href="index.html"> Meal + Mug</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap Tooltips (Popper) -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap Core + Tooltips (popper) -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Material Design Bootstrap Core -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
 </html>
